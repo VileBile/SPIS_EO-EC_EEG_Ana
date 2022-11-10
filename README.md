@@ -15,3 +15,7 @@ Granger causality (ValidGrang.m ,GrangClassin.m)
 - Classifiers were trained on the full data and loadings of the data onto the first 16 PCA components. SVMs, NNs we're best in both cases giving 85-95% accuracy (in general higher for the complete data) (models are [here](https://drive.google.com/drive/folders/1P9n3Ga4oiZg_1nXLdJR056TL14YWvWxJ?usp=share_link).
 
 **TODO** statcond on the loadings.
+
+Microstates (using, [+microstate matalab toolbox](https://plus-microstate.github.io/); microstates.m,msclassin.m)
+
+- Microstates are (relative) scalp topographies which represent brain states that last cca. 80-120ms after which a new microstate takes hold. Computationally they are the prototypes of clusters obtained after runing an unsuprevised clustering algo. (eg. KNN). more details 
