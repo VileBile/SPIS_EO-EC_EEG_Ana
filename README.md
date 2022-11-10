@@ -30,3 +30,5 @@ Microstates (using [+microstate matalab toolbox](https://plus-microstate.github.
 **TODO**: run calssification on microstate asignments, check GCs associated with each microstate.
 
 This is more or less what I have done so far. I am troubeled by the fact that the GCs can be used for classification, but I can't find a metric according to which EO and EC differ. (mbi it's calssifying based on some artifact). 
+
+**TODO global** significance testing, freq. domain. analyses.
