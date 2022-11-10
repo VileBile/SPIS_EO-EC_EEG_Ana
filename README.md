@@ -20,4 +20,7 @@ Granger causality (ValidGrang.m ,GrangClassin.m)
 
 Microstates (using [+microstate matalab toolbox](https://plus-microstate.github.io/); microstates.m,msclassin.m)
 
-- Microstates are (relative) scalp topographies which represent brain states that last cca. 80-120ms after which a new microstate takes hold. Computationally they are the prototypes of clusters obtained after runing an unsuprevised clustering algo. (eg. KNN). more details 
+- Microstates are (relative) scalp topographies which represent brain states that last cca. 80-120ms after which a new microstate takes hold. Computationally they are the prototypes of clusters obtained after runing an unsuprevised clustering algo. (eg. KNN). more details
+
+- 5 microstates (./ims/maps.png) we're determined to give the best "number of states/explained variance" tradeoff. 
+- Next we computed some descriptive statistic related of the maps for the EO and EC conditions. We computed, assignments of timepoints to maps according to max(abs(cov(pnt,maps))
