@@ -25,3 +25,8 @@ Microstates (using [+microstate matalab toolbox](https://plus-microstate.github.
 - 5 microstates (./ims/maps.png) we're determined to give the best "number of states/explained variance" tradeoff. 
 - Next we computed some descriptive statistic related of the maps for the EO and EC conditions. We computed, assignments of timepoints to maps according to max(abs(cov(pnt,maps)). Using the assignments, mean durations (per map) and transition probabilities (a maps,maps matrix). Also and concerningly the mean durations were around 3-4pnts ~= 12-16ms (too short!!) (These can be found in ./ims or recomputed using msclassin.m)
 - So far (just by eye) no significant difference in these statistics could be found between the EO and EC case.
+- In the literature there are some known canonnical microstates (refer to "more details" above). Some of these were also found in our case. I noticed that they all have a wide region of (in)activity which looks rougly gaussian; they reminded me of volume conduction effects. So I also tried to make maps after laplacian filtering the data. These are somewhat different. I don't know if doing these makes sense or how to interpret the results.
+
+**TODO**: run calssification on microstate asignments, check GCs associated with each microstate.
+
+This is more or less what I have done so far. I am troubeled by the fact that the GCs can be used for classification, but I can't find a metric according to which EO and EC differ. (mbi it's calssifying based on some artifact). 
