@@ -12,6 +12,6 @@ Granger causality (ValidGrang.m ,GrangClassin.m)
 - Pairvise GC was computed for each segments, yielding a 64,64 matrix per segment.
 - PCA was preformed on these matrices, the first 16 components explained 90% of the variance
 
-- Classifiers were trained on the full data and loadings of the data onto the first 16 PCA components. SVMs, NNs we're best in both cases giving 85-95% accuracy (in general higher for the complete data).
+- Classifiers were trained on the full data and loadings of the data onto the first 16 PCA components. SVMs, NNs we're best in both cases giving 85-95% accuracy (in general higher for the complete data) (models are [here](https://drive.google.com/drive/folders/1P9n3Ga4oiZg_1nXLdJR056TL14YWvWxJ?usp=share_link).
 
 **TODO** statcond on the loadings.
