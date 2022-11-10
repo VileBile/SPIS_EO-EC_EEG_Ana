@@ -38,8 +38,8 @@ its = size(c,2);
 % imagesc(a)
 
 % Params
-segs = 800; %% approx a 200ms segment %% gives segs with 48 pnts
-ord = 7; %%approx a 30ms window
+segs = 100; %% approx a 200ms segment %% gives segs with 48 pnts
+ord = 20; %%approx a 30ms window
 % Main loop 
 for s=1:subs
     d = dat(:,:,s);
