@@ -23,4 +23,5 @@ Microstates (using [+microstate matalab toolbox](https://plus-microstate.github.
 - Microstates are (relative) scalp topographies which represent brain states that last cca. 80-120ms after which a new microstate takes hold. Computationally they are the prototypes of clusters obtained after runing an unsuprevised clustering algo. (eg. KNN). more details
 
 - 5 microstates (./ims/maps.png) we're determined to give the best "number of states/explained variance" tradeoff. 
-- Next we computed some descriptive statistic related of the maps for the EO and EC conditions. We computed, assignments of timepoints to maps according to max(abs(cov(pnt,maps))
+- Next we computed some descriptive statistic related of the maps for the EO and EC conditions. We computed, assignments of timepoints to maps according to max(abs(cov(pnt,maps)). Using the assignments, mean durations (per map) and transition probabilities (a maps,maps matrix). Also and concerningly the mean durations were around 3-4pnts ~= 12-16ms (too short!!) (These can be found in ./ims or recomputed using msclassin.m)
+- So far (just by eye) no significant difference in these statistics could be found between the EO and EC case.
