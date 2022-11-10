@@ -7,6 +7,8 @@ Preprcessing (in eeglab):
 3. Average reference.
 4. Split data into 100 segments per recording (approx. 1.5s per segment)
 
+**TODO** Toss bad segments
+
 Granger causality (ValidGrang.m ,GrangClassin.m)
 
 - Pairvise GC was computed for each segments, yielding a 64,64 matrix per segment.
