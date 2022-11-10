@@ -6,6 +6,8 @@ Preprcessing (in eeglab):
 2. ICA and remove noise comoponents
 3. Average reference.
 4. Split data into 100 segments per recording (approx. 1.5s per segment)
+the final data is [here](https://drive.google.com/file/d/1u1gwD1riakBnp1GLJIv4ByD5I8GZZNcJ/view?usp=share_link)
+
 
 **TODO** Toss bad segments
 
